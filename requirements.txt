@@ -1,8 +1,6 @@
-customtkinter
 watchpoints
 requests
 CTkListbox
 CTkMessagebox
 asynctkinter
 requests-toolbelt
-pillow
