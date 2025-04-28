@@ -180,62 +180,7 @@ class Pinterest:
 
     def login(self):
         self.screen()
-        names = [
-        "Cili",
-        "Sueb",
-        "Syfa",
-        "Hanna",
-        "Clara",
-        "Antonel",
-        "Ciya",
-        "Eye",
-        "Nguyen",
-        "Cybila",
-        "Zara",
-        "Jenner",
-        "Rossi",
-        "-------",
-        "Lala",
-        "Moza",
-        "Nia"
-    ]
-        emails = [
-        "rroji4027@gmail.com",
-        "suebkosim@gmail.com",
-        "oman6363123@gmail.com",
-        "ssakri497@gmail.com",
-        "utasueb@gmail.com",
-        "odabodab04@gmail.com",
-        "ssueb517@gmail.com",
-        "eyezaixs63@gmail.com",
-        "rizki63rizki@gmail.com",
-        "doborat63@gmail.com",
-        "konakw4001@gmail.com",
-        "ucupsurucup39@gmail.com",
-        "otongsurotong1000@gmail.com",
-        "---------------------------",
-        "oobod011@gmail.com",
-        "mozamoja199@gmail.com",
-        "marwaditania@gmail.com"
-    ]
-        
-        pw="korbanhack"
-    
-        console = Console()
-    
-        # Membuat tabel untuk daftar akun email
-        table = Table(title="Akun Email", style="green")
-        table.add_column("Nama", justify="left")
-        table.add_column("Email", justify="left")
-        table.add_column("Password", justify="left")
-        
-        # Menambahkan baris ke tabel
-        for name, email in zip(names, emails):
-            table.add_row(name, email, pw)
-        
-        # Menampilkan tabel
-        console.print(table,justify="center")
-        
+
         print("+----------------------- Login ----------------------+")
         print(f"+ {Fore.BLUE}1{Style.RESET_ALL}. Dengan Kredensial")
         print(f"+ {Fore.BLUE}2{Style.RESET_ALL}. Dengan Cookie")
