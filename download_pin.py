@@ -11,7 +11,7 @@ def Author():
     print(' |____|   |__|___|  /__|  \_____>__|    \___  >____  > |__|      ')
     print('                  \/                        \/     \/            ')
     print('                            Downloader                           ')
-    print('                     Coded By Sidiq Brewstreet                   ')
+    print('                         Coded By Obod Star                      ')
     print('                                                                 ')
 
 class Pinterest:
@@ -184,3 +184,4 @@ if __name__ == '__main__':
         lo.GetID(url=url)
         lo.GetHash()
     except KeyboardInterrupt: exit()
+
