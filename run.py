@@ -200,27 +200,7 @@ class Pinterest:
         "Nia"
     ]
         emails = [
-        "rroji4027@gmail.com",
-        "suebkosim@gmail.com",
-        "oman6363123@gmail.com",
-        "ssakri497@gmail.com",
-        "utasueb@gmail.com",
-        "odabodab04@gmail.com",
-        "ssueb517@gmail.com",
-        "eyezaixs63@gmail.com",
-        "rizki63rizki@gmail.com",
-        "doborat63@gmail.com",
-        "konakw4001@gmail.com",
-        "ucupsurucup39@gmail.com",
-        "otongsurotong1000@gmail.com",
-        "---------------------------",
-        "oobod011@gmail.com",
-        "mozamoja199@gmail.com",
-        "marwaditania@gmail.com"
-    ]
         
-        pw="korbanhack"
-    
         console = Console()
     
         # Membuat tabel untuk daftar akun email
@@ -729,3 +709,4 @@ class CreateBoard:
 
 if __name__ == "__main__":
     Pinterest()
+
